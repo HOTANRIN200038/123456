@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+    background-color: #615d58;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+span {
+    padding: 1rem;
+}
+
+.header_right {
+    display: flex;
+    padding: 2rem;
+}
+
+.lan {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.lan:hover .content {
+    display: block;
+}
+
+.money {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.money:hover .content {
+    display: block;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16rem;
+    box-shadow: 0rem 0.8rem 1.6rem 0rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.content a {
+    color: black;
+    padding: 1.2rem 1.6rem;
+    text-decoration: none;
+    display: block;
+}
+
+.fa-chevron-down {
+    padding-left: 1rem;
+}
+
+.top {
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-top: 10rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.top_left span {
+    font-size: 6rem;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+}
+
+.bitc_logo img {
+    padding-left: 5rem;
+}
+
+.top_mid {
+    margin-left: 35%;
+    padding: 0.5rem;
+    margin-top: -7rem;
+}
+
+.top_right {
+    margin-left: 90%;
+    margin-top: -4rem;
+    display: block;
+    margin-left: 80%;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.home .content {
+    border-bottom: 0.5rem solid #6b6a68;
+    width: 25rem;
+    height: 15rem;
+}
+
+.home:hover {
+    color: #605e5c;
+}
+
+.home:hover .content {
+    display: block;
+}
+
+.shop {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.shop .content {
+    border-bottom: 0.5rem solid #706f6e;
+    width: 25rem;
+    height: 15rem;
+}
+
+.shop:hover {
+    color: #4b4947;
+}
+
+.shop:hover .content {
+    display: block;
+}
+
+.blog {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.blog .content {
+    border-bottom: 0.5rem solid #adaba9;
+    width: 25rem;
+    height: 15rem;
+}
+
+.blog:hover {
+    color: #1f1d1d;
+}
+
+.blog:hover .content {
+    display: block;
+}
+
+.page {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.page .content {
+    border-bottom: 0.5rem solid #525150;
+    width: 25rem;
+    height: 20rem;
+}
+
+.page:hover {
+    color: #30251e;
+}
+
+.page:hover .content {
+    display: block;
+}
+
+.a_link:hover {
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.b_link:hover {
+    background-color: #2718f6;
+    transition: 0.3s;
+}
+.num{
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#cartnum{
+    font-size: 1.5rem;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 0.5rem;
+    vertical-align: top;
+    margin-left: -1rem; 
+}
+.box_merchandise {
+    width: 25rem;
+    height: 40rem;
+    font-size: 1.5rem;
+    background-color: #FCF5ED;
+}
+
+.merchandise  {
+    display: flex;
+}
+
+.button {
+    display: flex;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+.m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.name {
+    margin-left: 5%;
+}
+
+.price {
+    padding-top: 0.5rem;
+}
+
+.allprice {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+
+.a_price {
+    margin-left: 10rem;
+    font-size: 2.5rem;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    color: #F3C3A2;
+    transition: 0.3s;
+}
+
+.box_merchandise {
+    display: none;
+    position: absolute;
+}
+
+.item:hover .box_merchandise {
+    display: block;
+    color: black;
+} 
